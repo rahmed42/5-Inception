@@ -1,0 +1,7 @@
+[mysqld]
+skip-host-cache
+skip-name-resolve
+bind-address=0.0.0.0
+skip-networking=false
+pid-file=/run/mysqld/mysqld.pid
+socket=/run/mysqld/mysqld.sock
